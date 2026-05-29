@@ -1,0 +1,100 @@
+This is cutadapt 5.2 with Python 3.10.20
+Command line parameters: --cut 8 -g ^TTCTTCTGCTGCTCGGGGATCTGG -A CTGTCTTATATACA --overlap 24 --discard-untrimmed --pair-filter=first -m 30 -e 0.1 -q 20,20 -j 16 -o /home/akn27/project/Fulk2026_revisions/NGS/1_analysis/beakr_pipeline/20260506_run2/lib023/trimmed/lib023_R1_trimmed.fastq.gz -p /home/akn27/project/Fulk2026_revisions/NGS/1_analysis/beakr_pipeline/20260506_run2/lib023/trimmed/lib023_R2_trimmed.fastq.gz --json /home/akn27/project/Fulk2026_revisions/NGS/1_analysis/beakr_pipeline/20260506_run2/lib023/stats/lib023_cutadapt.json /home/akn27/project/Fulk2026_revisions/NGS/1_analysis/20260504_NGS_fastq/raw/pEMF054-023_R1.fastq.gz /home/akn27/project/Fulk2026_revisions/NGS/1_analysis/20260504_NGS_fastq/raw/pEMF054-023_R2.fastq.gz
+Processing paired-end reads on 16 cores ...
+
+=== Summary ===
+
+Total read pairs processed:         13,019,857
+  Read 1 with adapter:              12,981,750 (99.7%)
+  Read 2 with adapter:                      52 (0.0%)
+
+== Read fate breakdown ==
+Pairs that were too short:             403,547 (3.1%)
+Pairs discarded as untrimmed:           34,444 (0.3%)
+Pairs written (passing filters):    12,581,866 (96.6%)
+
+Total basepairs processed: 3,130,461,224 bp
+  Read 1: 1,565,230,612 bp
+  Read 2: 1,565,230,612 bp
+Quality-trimmed:              11,941,179 bp (0.4%)
+  Read 1:     1,596,409 bp
+  Read 2:    10,344,770 bp
+Total written (filtered):  2,673,494,285 bp (85.4%)
+  Read 1: 1,139,837,777 bp
+  Read 2: 1,533,656,508 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: TTCTTCTGCTGCTCGGGGATCTGG; Type: anchored 5'; Length: 24; Trimmed: 12981750 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+22	44470	0.0	2	0 0 44470
+23	484345	0.0	2	0 468325 16020
+24	12418623	0.0	2	12191663 212341 14619
+25	34138	0.0	2	0 33570 568
+26	174	0.0	2	0 0 174
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTGTCTTATATACA; Type: regular 3'; Length: 14; Trimmed: 52 times
+
+Minimum overlap: 14
+No. of allowed errors:
+1-9 bp: 0; 10-14 bp: 1
+
+Bases preceding removed adapters:
+  A: 5.8%
+  C: 65.4%
+  G: 19.2%
+  T: 7.7%
+  none/other: 1.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	1	0.0	1	0 1
+22	1	0.0	1	0 1
+41	1	0.0	1	0 1
+43	1	0.0	1	0 1
+50	1	0.0	1	0 1
+51	1	0.0	1	0 1
+65	1	0.0	1	0 1
+66	1	0.0	1	0 1
+70	1	0.0	1	0 1
+72	1	0.0	1	0 1
+75	1	0.0	1	0 1
+77	1	0.0	1	0 1
+78	1	0.0	1	0 1
+82	1	0.0	1	0 1
+85	1	0.0	1	0 1
+93	1	0.0	1	0 1
+95	1	0.0	1	0 1
+97	1	0.0	1	0 1
+98	1	0.0	1	0 1
+107	1	0.0	1	0 1
+110	1	0.0	1	0 1
+111	1	0.0	1	0 1
+112	2	0.0	1	0 2
+113	1	0.0	1	0 1
+116	1	0.0	1	0 1
+118	1	0.0	1	0 1
+122	1	0.0	1	0 1
+123	1	0.0	1	0 1
+124	2	0.0	1	0 2
+126	2	0.0	1	0 2
+129	2	0.0	1	0 2
+132	1	0.0	1	0 1
+134	2	0.0	1	0 2
+137	1	0.0	1	0 1
+138	1	0.0	1	0 1
+141	1	0.0	1	0 1
+142	1	0.0	1	0 1
+144	2	0.0	1	0 2
+147	2	0.0	1	0 2
+148	3	0.0	1	0 3
+149	1	0.0	1	0 1
+150	1	0.0	1	0 1
+151	1	0.0	1	0 1

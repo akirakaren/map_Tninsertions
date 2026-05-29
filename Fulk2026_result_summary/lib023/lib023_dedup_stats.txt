@@ -1,0 +1,5 @@
+total_properly_paired	2045756
+unique_coordinate_pairs	31193
+duplicate_pairs_removed	2014563
+duplication_rate	0.9848
+pairs_missing_mate	0

@@ -1,0 +1,16 @@
+metric	value
+sample	lib023
+total_raw_reads_at_sites	2045640
+total_dedup_reads_at_sites	31112
+duplication_pct_at_sites	98.48
+total_unique_insertion_sites	4357
+intragenic_sites	3902
+intergenic_sites	455
+fraction_intragenic	0.8956
+genes_with_insertions	2587
+total_annotated_genes	6710
+fraction_genes_hit	0.3855
+median_raw_reads_per_site	1.0
+max_raw_reads_per_site	817097
+median_dedup_reads_per_site	1.0
+max_dedup_reads_per_site	622
