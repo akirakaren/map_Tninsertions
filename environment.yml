@@ -1,0 +1,15 @@
+name: tn5_mapping
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - cutadapt>=4.4
+  - xopen>=1.7,<2.0
+  - bowtie2>=2.5
+  - samtools>=1.15
+  - bedtools>=2.30
+  - pandas>=1.5
+  - matplotlib>=3.6
+  - seaborn>=0.12
