@@ -4,7 +4,7 @@
 
 This pipeline takes raw paired-end FASTQ files from a transposon insertion enrichment sequencing experiment and produces a complete map of insertion sites across the *C. necator* H16 genome. Each read pair contains the junction between the transposon end sequence and flanking genomic DNA; the pipeline trims away the known transposon and adaptor sequences, aligns the remaining genomic sequence to the reference, and extracts the precise insertion coordinate from the 5′ end of R1.
 
-Jump to [How to Run](#how-to-run)
+Jump to [Quick Start](#quick-start)
 
 ## Overview
 
