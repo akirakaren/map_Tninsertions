@@ -140,15 +140,17 @@ Sliding-window plot (default 10 kb bins) showing the number of unique insertion 
 
 ## Dependencies
 
-- `cutadapt`
-- `bowtie2`
-- `samtools`
-- `bedtools`
-- `python3`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - `openpyxl`
+| Tool | Version |
+|---|---|
+| cutadapt | ≥ 3.0 |
+| bowtie2 | ≥ 2.4 |
+| samtools | ≥ 1.15 | 
+| bedtools | ≥ 2.30 | 
+| python3 | ≥ 3.8 |
+| pandas | ≥ 1.3 | 
+| matplotlib | ≥ 3.5 | 
+| seaborn | ≥ 0.11 | 
+| NCBI datasets CLI | optional |
 
 ---
 
